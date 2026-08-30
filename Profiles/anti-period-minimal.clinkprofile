@@ -5,6 +5,9 @@
   "config": {
     "keyHeight": 58,
     "keySpacing": 2,
-    "rowSpacing": 2
+    "rowSpacing": 2,
+    "hapticsEnabled": true,
+    "keyHapticsEnabled": true,
+    "soundEnabled": true
   }
 }

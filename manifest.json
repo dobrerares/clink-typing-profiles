@@ -9,8 +9,8 @@
       "asset": {
         "path": "anti-period-fast.clinkprofile",
         "url": "https://github.com/dobrerares/clink-typing-profiles/releases/download/latest/anti-period-fast.clinkprofile",
-        "sha256": "76bab93a7fd906d5e66063a9c4828fb6a47fdf7290711f2d4d8ba7a2c72b2f9d",
-        "byteCount": 688
+        "sha256": "48bd239afc3aa6cb2cfa27aae864ed1afbe3c30e8fc38371f2587c96507d56c7",
+        "byteCount": 771
       }
     },
     {
@@ -21,8 +21,8 @@
       "asset": {
         "path": "anti-period-minimal.clinkprofile",
         "url": "https://github.com/dobrerares/clink-typing-profiles/releases/download/latest/anti-period-minimal.clinkprofile",
-        "sha256": "aebb371fe29c203a6ad60ae288f5e99a15a1d19b59297c23252a6007b64876d1",
-        "byteCount": 182
+        "sha256": "9702b3c29461bb4b97646a3333cc7131e47c65d00b72936b3581689598e5663a",
+        "byteCount": 267
       }
     },
     {
@@ -33,8 +33,8 @@
       "asset": {
         "path": "anti-period.clinkprofile",
         "url": "https://github.com/dobrerares/clink-typing-profiles/releases/download/latest/anti-period.clinkprofile",
-        "sha256": "46f735056ac33b01bf04b645ca1e2fb5f16e89fa6ab699611eafdfacaf444972",
-        "byteCount": 689
+        "sha256": "60870a43be5125624dacad2f1751a099933047313a2a8b579af06c140bf8700a",
+        "byteCount": 774
       }
     },
     {

@@ -8,12 +8,12 @@
     "rowSpacing": 2,
     "keyPressInstant": true,
     "keyBloomScale": 1,
-    "keySpringResponse": 0.10,
+    "keySpringResponse": 0.1,
     "keySpringDamping": 1,
     "keyPressLinger": 0,
     "minPressVisible": 0,
     "spaceBloomScale": 1,
-    "spaceSpringResponse": 0.10,
+    "spaceSpringResponse": 0.1,
     "spaceSpringDamping": 1,
     "spaceLeanMultiplier": 0,
     "spaceCursorDragScale": 1,
@@ -22,6 +22,9 @@
     "glassReleaseResponse": 0.06,
     "swipeShowTrail": false,
     "swipeKeyMorph": false,
-    "suggestionDebounceDelay": 170
+    "suggestionDebounceDelay": 170,
+    "hapticsEnabled": true,
+    "keyHapticsEnabled": true,
+    "soundEnabled": true
   }
 }

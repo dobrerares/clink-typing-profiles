@@ -22,6 +22,9 @@
     "glassReleaseResponse": 0.08,
     "swipeShowTrail": false,
     "swipeKeyMorph": false,
-    "suggestionDebounceDelay": 120
+    "suggestionDebounceDelay": 120,
+    "hapticsEnabled": true,
+    "keyHapticsEnabled": true,
+    "soundEnabled": true
   }
 }
