@@ -1,0 +1,27 @@
+{
+  "id": "custom.anti-period-fast",
+  "name": "Anti-Period Fast",
+  "icon": "bolt.badge.checkmark.fill",
+  "config": {
+    "keyHeight": 58,
+    "keySpacing": 2,
+    "rowSpacing": 2,
+    "keyPressInstant": true,
+    "keyBloomScale": 1,
+    "keySpringResponse": 0.10,
+    "keySpringDamping": 1,
+    "keyPressLinger": 0,
+    "minPressVisible": 0,
+    "spaceBloomScale": 1,
+    "spaceSpringResponse": 0.10,
+    "spaceSpringDamping": 1,
+    "spaceLeanMultiplier": 0,
+    "spaceCursorDragScale": 1,
+    "popupSpringResponse": 0.16,
+    "popupSpringDamping": 1,
+    "glassReleaseResponse": 0.06,
+    "swipeShowTrail": false,
+    "swipeKeyMorph": false,
+    "suggestionDebounceDelay": 170
+  }
+}

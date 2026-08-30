@@ -1,0 +1,41 @@
+{
+  "version": "latest",
+  "profiles": [
+    {
+      "id": "anti-period-fast",
+      "name": "Anti-Period Fast",
+      "icon": "bolt.badge.checkmark.fill",
+      "version": "latest",
+      "asset": {
+        "path": "anti-period-fast.clinkprofile",
+        "url": "https://github.com/dobrerares/clink-typing-profiles/releases/download/latest/anti-period-fast.clinkprofile",
+        "sha256": "76bab93a7fd906d5e66063a9c4828fb6a47fdf7290711f2d4d8ba7a2c72b2f9d",
+        "byteCount": 688
+      }
+    },
+    {
+      "id": "anti-period",
+      "name": "Anti-Period",
+      "icon": "hand.tap.fill",
+      "version": "latest",
+      "asset": {
+        "path": "anti-period.clinkprofile",
+        "url": "https://github.com/dobrerares/clink-typing-profiles/releases/download/latest/anti-period.clinkprofile",
+        "sha256": "46f735056ac33b01bf04b645ca1e2fb5f16e89fa6ab699611eafdfacaf444972",
+        "byteCount": 689
+      }
+    },
+    {
+      "id": "thumb-room",
+      "name": "Thumb Room",
+      "icon": "rectangle.expand.vertical",
+      "version": "latest",
+      "asset": {
+        "path": "thumb-room.clinkprofile",
+        "url": "https://github.com/dobrerares/clink-typing-profiles/releases/download/latest/thumb-room.clinkprofile",
+        "sha256": "6e2675b1a2a156b3902b7ff880643339ea14398532bc0b78869603212ac4887c",
+        "byteCount": 672
+      }
+    }
+  ]
+}

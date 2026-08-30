@@ -1,0 +1,16 @@
+name: Release profiles
+on:
+  push:
+    branches: [main]
+    paths: ["Profiles/**", "tools/build-manifest.py", ".github/workflows/release.yml"]
+permissions: { contents: write }
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/build-manifest.py
+      - run: gh release delete latest --yes || true
+        env: { GH_TOKEN: "${{ github.token }}" }
+      - run: gh release create latest Profiles/*.clinkprofile manifest.json --title "Latest profiles" --latest
+        env: { GH_TOKEN: "${{ github.token }}" }

@@ -1,0 +1,26 @@
+{
+  "id": "custom.thumb-room",
+  "name": "Thumb Room",
+  "icon": "rectangle.expand.vertical",
+  "config": {
+    "keyHeight": 62,
+    "keySpacing": 2.5,
+    "rowSpacing": 4,
+    "keyPressInstant": false,
+    "keyBloomScale": 1.08,
+    "keySpringResponse": 0.24,
+    "keySpringDamping": 0.78,
+    "keyPressLinger": 0.06,
+    "minPressVisible": 0.08,
+    "spaceBloomScale": 1.03,
+    "spaceSpringResponse": 0.24,
+    "spaceSpringDamping": 0.78,
+    "spaceLeanMultiplier": 0.10,
+    "popupSpringResponse": 0.28,
+    "popupSpringDamping": 0.72,
+    "glassReleaseResponse": 0.10,
+    "swipeShowTrail": false,
+    "swipeKeyMorph": false,
+    "suggestionDebounceDelay": 100
+  }
+}

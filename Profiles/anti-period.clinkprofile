@@ -1,0 +1,27 @@
+{
+  "id": "custom.anti-period",
+  "name": "Anti-Period",
+  "icon": "hand.tap.fill",
+  "config": {
+    "keyHeight": 60,
+    "keySpacing": 2,
+    "rowSpacing": 3,
+    "keyPressInstant": false,
+    "keyBloomScale": 1.04,
+    "keySpringResponse": 0.18,
+    "keySpringDamping": 0.9,
+    "keyPressLinger": 0.04,
+    "minPressVisible": 0.06,
+    "spaceBloomScale": 1.02,
+    "spaceSpringResponse": 0.18,
+    "spaceSpringDamping": 0.9,
+    "spaceLeanMultiplier": 0.08,
+    "spaceCursorDragScale": 1,
+    "popupSpringResponse": 0.22,
+    "popupSpringDamping": 0.85,
+    "glassReleaseResponse": 0.08,
+    "swipeShowTrail": false,
+    "swipeKeyMorph": false,
+    "suggestionDebounceDelay": 120
+  }
+}
