@@ -1,7 +1,7 @@
 {
-  "id": "custom.anti-period-minimal",
-  "name": "Anti-Period Minimal",
-  "icon": "hand.tap.fill",
+  "id": "custom.anti-period-current",
+  "name": "Anti-Period Current+",
+  "icon": "keyboard.badge.eye",
   "config": {
     "showNumberRow": true,
     "numberRowHeightScale": 0.8,
@@ -19,8 +19,16 @@
     "soundEnabled": false,
     "soundPackID": "system",
     "soundVolume": 0.8,
-    "keyHeight": 58,
+    "keyHeight": 54,
     "keySpacing": 5,
-    "rowSpacing": 8
+    "rowSpacing": 8,
+    "keyWidthFraction": 1,
+    "adaptiveShrink": 0.8,
+    "adaptiveGrow": 1.35,
+    "adaptiveSpace": false,
+    "suggestionHitboxScale": 1,
+    "dragUpThreshold": 24,
+    "spaceCursorActivationDelay": 150,
+    "cursorMovementType": "spacebar"
   }
 }
