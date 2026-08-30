@@ -1,0 +1,26 @@
+{
+  "id": "custom.anti-period-feedback",
+  "name": "Anti-Period Feedback",
+  "icon": "hand.tap.fill",
+  "config": {
+    "keyHeight": 58,
+    "keySpacing": 2,
+    "rowSpacing": 2,
+    "keyPressInstant": false,
+    "keyBloomScale": 1.1,
+    "keySpringResponse": 0.24,
+    "keySpringDamping": 0.72,
+    "keyPressLinger": 0.08,
+    "minPressVisible": 0.1,
+    "spaceBloomScale": 1.04,
+    "spaceSpringResponse": 0.24,
+    "spaceSpringDamping": 0.78,
+    "spaceLeanMultiplier": 0.12,
+    "popupSpringResponse": 0.28,
+    "popupSpringDamping": 0.7,
+    "glassReleaseResponse": 0.1,
+    "swipeShowTrail": false,
+    "swipeKeyMorph": false,
+    "suggestionDebounceDelay": 100
+  }
+}
