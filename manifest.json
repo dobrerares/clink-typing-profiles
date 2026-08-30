@@ -14,6 +14,18 @@
       }
     },
     {
+      "id": "anti-period-minimal",
+      "name": "Anti-Period Minimal",
+      "icon": "hand.tap.fill",
+      "version": "latest",
+      "asset": {
+        "path": "anti-period-minimal.clinkprofile",
+        "url": "https://github.com/dobrerares/clink-typing-profiles/releases/download/latest/anti-period-minimal.clinkprofile",
+        "sha256": "aebb371fe29c203a6ad60ae288f5e99a15a1d19b59297c23252a6007b64876d1",
+        "byteCount": 182
+      }
+    },
+    {
       "id": "anti-period",
       "name": "Anti-Period",
       "icon": "hand.tap.fill",

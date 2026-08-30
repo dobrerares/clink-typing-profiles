@@ -1,0 +1,10 @@
+{
+  "id": "custom.anti-period-minimal",
+  "name": "Anti-Period Minimal",
+  "icon": "hand.tap.fill",
+  "config": {
+    "keyHeight": 58,
+    "keySpacing": 2,
+    "rowSpacing": 2
+  }
+}
