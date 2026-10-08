@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 import unittest
 
-PROFILE = Path(__file__).resolve().parents[1] / 'Profiles/rares-quiet-bilingual.clinkprofile'
+PROFILE = Path(__file__).resolve().parents[1] / 'Profiles/rares-glass.clinkprofile'
 
 class QuietProfileTests(unittest.TestCase):
     def setUp(self):
@@ -22,6 +22,9 @@ class QuietProfileTests(unittest.TestCase):
             self.assertEqual(self.config[key], 1)
         self.assertFalse(self.config['swipeKeyMorph'])
         self.assertFalse(self.config['swipeShowTrail'])
+        self.assertEqual(self.config['glassReleaseResponse'], 0.12)
+        self.assertEqual(self.config['popupSpringResponse'], 0.22)
+        self.assertEqual(len(list(PROFILE.parent.glob('*.clinkprofile'))), 1)
     def test_no_automatic_punctuation_repair(self):
         self.assertFalse(self.config['autoPunctuationEnabled'])
         self.assertTrue(self.config['punctuationSpacingEnabled'])

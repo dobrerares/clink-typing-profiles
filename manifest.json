@@ -1,88 +1,16 @@
 {
-  "version": "profiles-a40efc2088d2531ae13fd2ee3f7780e7c891bbddfa34acec752b12a9cf310edf",
+  "version": "profiles-ee4af5afd4d385c49888d35334858080a02c3bfbd300c8048aa491d142b04f39",
   "profiles": [
     {
-      "id": "anti-period-current",
-      "name": "Anti-Period Current+",
-      "icon": "keyboard.badge.eye",
-      "version": "profiles-a40efc2088d2531ae13fd2ee3f7780e7c891bbddfa34acec752b12a9cf310edf",
+      "id": "rares-glass",
+      "name": "Rares Glass",
+      "icon": "sparkles",
+      "version": "profiles-ee4af5afd4d385c49888d35334858080a02c3bfbd300c8048aa491d142b04f39",
       "asset": {
-        "path": "anti-period-current.clinkprofile",
-        "url": "https://github.com/dobrerares/clink-typing-profiles/releases/download/profiles-a40efc2088d2531ae13fd2ee3f7780e7c891bbddfa34acec752b12a9cf310edf/anti-period-current.clinkprofile",
-        "sha256": "d59d0a841001df999be595511c3ef5ee375a7d072d014f98483806a331b58cd7",
-        "byteCount": 939
-      }
-    },
-    {
-      "id": "anti-period-fast",
-      "name": "Anti-Period Fast",
-      "icon": "bolt.badge.checkmark.fill",
-      "version": "profiles-a40efc2088d2531ae13fd2ee3f7780e7c891bbddfa34acec752b12a9cf310edf",
-      "asset": {
-        "path": "anti-period-fast.clinkprofile",
-        "url": "https://github.com/dobrerares/clink-typing-profiles/releases/download/profiles-a40efc2088d2531ae13fd2ee3f7780e7c891bbddfa34acec752b12a9cf310edf/anti-period-fast.clinkprofile",
-        "sha256": "b4a2ceda67c36f51c63b9e668f0082c175042b4abaec0dea5dd2053b7e4ce2ba",
-        "byteCount": 1195
-      }
-    },
-    {
-      "id": "anti-period-feedback",
-      "name": "Anti-Period Feedback",
-      "icon": "hand.tap.fill",
-      "version": "profiles-a40efc2088d2531ae13fd2ee3f7780e7c891bbddfa34acec752b12a9cf310edf",
-      "asset": {
-        "path": "anti-period-feedback.clinkprofile",
-        "url": "https://github.com/dobrerares/clink-typing-profiles/releases/download/profiles-a40efc2088d2531ae13fd2ee3f7780e7c891bbddfa34acec752b12a9cf310edf/anti-period-feedback.clinkprofile",
-        "sha256": "11649eaace6d48ebfa2a2a347e468748c5d5570833ad0baa6a1f6aa05e07e296",
-        "byteCount": 1212
-      }
-    },
-    {
-      "id": "anti-period-minimal",
-      "name": "Anti-Period Minimal",
-      "icon": "hand.tap.fill",
-      "version": "profiles-a40efc2088d2531ae13fd2ee3f7780e7c891bbddfa34acec752b12a9cf310edf",
-      "asset": {
-        "path": "anti-period-minimal.clinkprofile",
-        "url": "https://github.com/dobrerares/clink-typing-profiles/releases/download/profiles-a40efc2088d2531ae13fd2ee3f7780e7c891bbddfa34acec752b12a9cf310edf/anti-period-minimal.clinkprofile",
-        "sha256": "37d5d591174c1d52351be716139043f2cced7d061b608448f2f8bfb67ca22530",
-        "byteCount": 689
-      }
-    },
-    {
-      "id": "anti-period",
-      "name": "Anti-Period",
-      "icon": "hand.tap.fill",
-      "version": "profiles-a40efc2088d2531ae13fd2ee3f7780e7c891bbddfa34acec752b12a9cf310edf",
-      "asset": {
-        "path": "anti-period.clinkprofile",
-        "url": "https://github.com/dobrerares/clink-typing-profiles/releases/download/profiles-a40efc2088d2531ae13fd2ee3f7780e7c891bbddfa34acec752b12a9cf310edf/anti-period.clinkprofile",
-        "sha256": "46f735056ac33b01bf04b645ca1e2fb5f16e89fa6ab699611eafdfacaf444972",
-        "byteCount": 689
-      }
-    },
-    {
-      "id": "rares-quiet-bilingual",
-      "name": "Rares Quiet Bilingual",
-      "icon": "keyboard",
-      "version": "profiles-a40efc2088d2531ae13fd2ee3f7780e7c891bbddfa34acec752b12a9cf310edf",
-      "asset": {
-        "path": "rares-quiet-bilingual.clinkprofile",
-        "url": "https://github.com/dobrerares/clink-typing-profiles/releases/download/profiles-a40efc2088d2531ae13fd2ee3f7780e7c891bbddfa34acec752b12a9cf310edf/rares-quiet-bilingual.clinkprofile",
-        "sha256": "efdc47b83e18a292ad018a27c1f00942afdbbb0374c809585405065b14a2175b",
-        "byteCount": 1059
-      }
-    },
-    {
-      "id": "thumb-room",
-      "name": "Thumb Room",
-      "icon": "rectangle.expand.vertical",
-      "version": "profiles-a40efc2088d2531ae13fd2ee3f7780e7c891bbddfa34acec752b12a9cf310edf",
-      "asset": {
-        "path": "thumb-room.clinkprofile",
-        "url": "https://github.com/dobrerares/clink-typing-profiles/releases/download/profiles-a40efc2088d2531ae13fd2ee3f7780e7c891bbddfa34acec752b12a9cf310edf/thumb-room.clinkprofile",
-        "sha256": "6e2675b1a2a156b3902b7ff880643339ea14398532bc0b78869603212ac4887c",
-        "byteCount": 672
+        "path": "rares-glass.clinkprofile",
+        "url": "https://github.com/dobrerares/clink-typing-profiles/releases/download/profiles-ee4af5afd4d385c49888d35334858080a02c3bfbd300c8048aa491d142b04f39/rares-glass.clinkprofile",
+        "sha256": "1b2d3daba408763e3579890557ebf8e2bc9fe401ed4250345a8effa32d8ceccf",
+        "byteCount": 1050
       }
     }
   ]
