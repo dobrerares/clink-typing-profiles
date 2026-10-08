@@ -12,7 +12,7 @@ One profile, five plugins (one adds the layout), and an official Liquid Glass th
 | **Quiet Feedback** plugin | same | Per-key haptics: gentle letters, firmer space, crisp return, light delete. |
 | **Period Guard** plugin | same | Shrinks the period key's tap area after a one-time calibration, without changing how it looks. |
 | **Explicit Proofread** plugin | same | A top-bar button that sends only the text you selected to Apple Intelligence. |
-| **Rares QWERTY** layout plugin | same | Standard QWERTY with a **period key right of the space bar** (no emoji key). |
+| **Rares QWERTY** layout plugin | same | QWERTY with **emoji left and period right of the space bar**. The **Compact** variant adds a narrow, SwiftKey-style return. |
 
 The four typing plugins install switched off; you turn on each one yourself. The layout plugin is on so the layout shows up.
 
@@ -23,7 +23,7 @@ The four typing plugins install switched off; you turn on each one yourself. The
 3. **Languages:** enable **Romanian** and **English (UK)**, both QWERTY. Turn on **Combined Language Mode** and wait for both downloads to finish.
 4. **Corrections:** native Autocorrect **ON**, suggestions **ON**, auto-punctuation **ON**, double-space period **OFF**, auto-capitalize and smart quotes **OFF**. With Romanian + English in Combined mode, Clink only corrects a word that's wrong in both languages; Bilingual Guard blocks the risky fixes on top of that.
 5. **Gestures:** swipe typing **OFF** for now. Cursor on spacebar drag. Floating popups with long-press accents on, for ă â î ș ț.
-6. **Plugins:** add `dobrerares/clink-typing-plugins` and install all five. Go to Layout → Arrangement and pick **Rares QWERTY** (period right of the space bar). Turn on **Bilingual Guard** and **Quiet Feedback** first. From the official plugins, add **Language Flag** to show the active layout. Leave Adaptive Hitbox, Heavy Space, Shorthand and other correction or haptic plugins **off**, because they compete with ours.
+6. **Plugins:** add `dobrerares/clink-typing-plugins` and install all five. Go to Layout → Arrangement and pick **Rares QWERTY Compact** (emoji · space · period · narrow return). If it shows two return keys, pick **Rares QWERTY** instead. Turn on **Bilingual Guard** and **Quiet Feedback** first. From the official plugins, add **Language Flag** to show the active layout. Leave Adaptive Hitbox, Heavy Space, Shorthand and other correction or haptic plugins **off**, because they compete with ours.
 7. **Period Guard:** turn it on after picking Rares QWERTY. In a throwaway note, arm calibration, tap the period twice, and confirm. It starts at scale 0.92 with spacebar expansion off. If it says "unsupported", leave it off and tell Daedalus.
 8. **Apple Intelligence:** Integrations → Apple Intelligence. Turn on **Explicit Proofread**, then add **Proofread selection** to the top bar. Select **English-only** text, then tap the button. Apple doesn't list Romanian as supported, so mixed text may be mangled.
 9. **Permissions:** per-key haptics and AI may need Full Access. Plugins ask for Typing data. Read each prompt before allowing it.
