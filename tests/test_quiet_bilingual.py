@@ -25,8 +25,9 @@ class QuietProfileTests(unittest.TestCase):
         self.assertEqual(self.config['glassReleaseResponse'], 0.12)
         self.assertEqual(self.config['popupSpringResponse'], 0.22)
         self.assertEqual(len(list(PROFILE.parent.glob('*.clinkprofile'))), 1)
-    def test_no_automatic_punctuation_repair(self):
-        self.assertFalse(self.config['autoPunctuationEnabled'])
+    def test_auto_punctuation_on_by_user_choice(self):
+        # The user asked for auto punctuation (2026-10-08).
+        self.assertTrue(self.config['autoPunctuationEnabled'])
         self.assertTrue(self.config['punctuationSpacingEnabled'])
     def test_no_invented_plugins_theme_or_language_ids(self):
         self.assertFalse(set(self.config) & {'plugins','languages','theme','keyStyle','languageMode'})

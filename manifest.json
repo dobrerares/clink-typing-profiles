@@ -1,16 +1,16 @@
 {
-  "version": "profiles-ee4af5afd4d385c49888d35334858080a02c3bfbd300c8048aa491d142b04f39",
+  "version": "profiles-9bd146712e19b7ae449971ba637aa51886da9e8c8995716b98624d395910cd28",
   "profiles": [
     {
       "id": "rares-glass",
       "name": "Rares Glass",
       "icon": "sparkles",
-      "version": "profiles-ee4af5afd4d385c49888d35334858080a02c3bfbd300c8048aa491d142b04f39",
+      "version": "profiles-9bd146712e19b7ae449971ba637aa51886da9e8c8995716b98624d395910cd28",
       "asset": {
         "path": "rares-glass.clinkprofile",
-        "url": "https://github.com/dobrerares/clink-typing-profiles/releases/download/profiles-ee4af5afd4d385c49888d35334858080a02c3bfbd300c8048aa491d142b04f39/rares-glass.clinkprofile",
-        "sha256": "1b2d3daba408763e3579890557ebf8e2bc9fe401ed4250345a8effa32d8ceccf",
-        "byteCount": 1050
+        "url": "https://github.com/dobrerares/clink-typing-profiles/releases/download/profiles-9bd146712e19b7ae449971ba637aa51886da9e8c8995716b98624d395910cd28/rares-glass.clinkprofile",
+        "sha256": "fa84515852f4e6da66c5eb821cd4fb356191ab0590735d89efff087f818a05f8",
+        "byteCount": 1049
       }
     }
   ]

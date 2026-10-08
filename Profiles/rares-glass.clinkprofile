@@ -16,7 +16,7 @@
     "cursorMovementType": "spacebar",
     "spaceCursorActivationDelay": 200,
     "punctuationSpacingEnabled": true,
-    "autoPunctuationEnabled": false,
+    "autoPunctuationEnabled": true,
     "keyPressInstant": false,
     "keyBloomScale": 1,
     "keySpringResponse": 0.16,

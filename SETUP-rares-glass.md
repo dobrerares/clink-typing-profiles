@@ -6,7 +6,7 @@ One profile, four plugins, and an official Liquid Glass theme. It's for mixed Ro
 
 | Piece | Where | What it does |
 |---|---|---|
-| **Rares Glass** profile | `dobrerares/clink-typing-profiles` | Default key height and spacing. Compact number row, sound OFF, gentle haptics, floating popups, short glassy motion, spacebar cursor. Native auto-punctuation off. |
+| **Rares Glass** profile | `dobrerares/clink-typing-profiles` | Default key height and spacing. Compact number row, sound OFF, gentle haptics, floating popups, short glassy motion, spacebar cursor. Auto-punctuation ON. |
 | **Liquid Violet** theme | Official Clink theme catalogue | Liquid Glass keys (translucent `liquidGlass` material) with a calm violet accent. Installed from the official catalogue, not republished. |
 | **Bilingual Guard** plugin | `dobrerares/clink-typing-plugins` | Keeps each word as you typed it, so English is never "fixed" into Romanian or the reverse. Fixes appear as suggestions only. |
 | **Quiet Feedback** plugin | same | Per-key haptics: gentle letters, firmer space, crisp return, light delete. |
@@ -20,7 +20,7 @@ All four plugins install switched off. You turn on each one yourself.
 1. **Profile:** add `dobrerares/clink-typing-profiles` under Clink's repositories. Apply **Clink Default**, then **Rares Glass**. Check that sound is OFF and keys are normal height.
 2. **Theme:** Themes → official catalogue → **Liquid Violet**. Appearance: Automatic.
 3. **Languages:** enable **Romanian** and **English (UK)**, both QWERTY. Turn on **Combined Language Mode** and wait for both downloads to finish.
-4. **Corrections:** native Autocorrect **OFF**, suggestions **ON**, auto-punctuation **OFF**, double-space period **OFF**, auto-capitalize and smart quotes **OFF**. Bilingual Guard handles corrections instead.
+4. **Corrections:** native Autocorrect **OFF**, suggestions **ON**, auto-punctuation **ON**, double-space period **OFF**, auto-capitalize and smart quotes **OFF**. Bilingual Guard handles corrections instead.
 5. **Gestures:** swipe typing **OFF** for now. Cursor on spacebar drag. Floating popups with long-press accents on, for ă â î ș ț.
 6. **Plugins:** add `dobrerares/clink-typing-plugins` and install all four. Turn on **Bilingual Guard** and **Quiet Feedback** first. From the official plugins, add **Language Flag** to show the active layout. Leave Adaptive Hitbox, Heavy Space, Shorthand and other correction or haptic plugins **off**, because they compete with ours.
 7. **Period Guard:** turn it on. In a throwaway note, arm calibration, tap the period twice, and confirm. It starts at scale 0.92 with spacebar expansion off. If it says "unsupported", leave it off and tell Daedalus.
