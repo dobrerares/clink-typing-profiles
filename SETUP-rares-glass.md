@@ -9,7 +9,7 @@ One profile, five plugins (one adds the layout), and an official Liquid Glass th
 | **Rares Glass** profile | `dobrerares/clink-typing-profiles` | Default key height and spacing. Compact number row, sound OFF, gentle haptics, floating popups, short glassy motion, spacebar cursor. Auto-punctuation ON. |
 | **Liquid Violet** theme | Official Clink theme catalogue | Liquid Glass keys (translucent `liquidGlass` material) with a calm violet accent. Installed from the official catalogue, not republished. |
 | **Bilingual Guard** plugin | `dobrerares/clink-typing-plugins` | Lets autocorrect work, but protects links, emails, numbers, acronyms, Romanian hyphen forms (s-a, mi-am, într-un) and the diacritics you typed. A Strict switch is there if you ever want no corrections at all. |
-| **Quiet Feedback** plugin | same | Per-key haptics: gentle letters, firmer space, crisp return, light delete. |
+| **Quiet Feedback** plugin | same | Per-key haptics: crisp letters, rounder space, solid return, sharp delete. Strength slider 0.5–1.4. |
 | **Period Guard** plugin | same | Shrinks the period key's tap area after a one-time calibration, without changing how it looks. |
 | **Explicit Proofread** plugin | same | A top-bar button that sends only the text you selected to Apple Intelligence. |
 | **Rares QWERTY** layout plugin | same | QWERTY with **emoji left and period right of the space bar**. The **Compact** variant adds a narrow, SwiftKey-style return. |
