@@ -9,6 +9,8 @@ try:
     profile = json.loads(path.read_text())
 except Exception as error:
     raise SystemExit(f"This is not valid JSON: {error}")
+if not isinstance(profile, dict):
+    raise SystemExit("A profile must be a JSON object with id, name, icon and config.")
 for key in ("id", "name", "icon", "config"):
     if key not in profile:
         raise SystemExit(f"Missing '{key}'. Copy one of the included profiles and keep all four fields.")

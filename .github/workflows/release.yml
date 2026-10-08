@@ -1,16 +1,49 @@
 name: Release profiles
+
 on:
   push:
     branches: [main]
-    paths: ["Profiles/**", "tools/build-manifest.py", ".github/workflows/release.yml"]
-permissions: { contents: write }
+    paths: ["Profiles/**", "tools/**", "tests/**", ".github/workflows/release.yml"]
+  workflow_dispatch:
+
+concurrency:
+  group: profile-release
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
 jobs:
   release:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Test local release contract
+        run: python3 -B -m unittest discover -s tests -v
       - run: python3 tools/build-manifest.py
-      - run: gh release delete latest --yes || true
+      - name: Publish a permanent profile release
         env: { GH_TOKEN: "${{ github.token }}" }
-      - run: gh release create latest Profiles/*.clinkprofile manifest.json --title "Latest profiles" --latest
-        env: { GH_TOKEN: "${{ github.token }}" }
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          assets=(Profiles/*.clinkprofile manifest.json)
+          tag=$(python3 -c 'import json; print(json.load(open("manifest.json"))["version"])')
+          if draft=$(gh release view "$tag" --json isDraft --jq .isDraft); then
+            if [ "$draft" = true ]; then
+              # Resume an interrupted upload while the release is still hidden.
+              gh release upload "$tag" "${assets[@]}" --clobber
+              gh release edit "$tag" --draft=false --latest
+            elif [ "$draft" = false ]; then
+              # Published assets are immutable: only move the latest designation.
+              gh release edit "$tag" --latest
+            else
+              printf '%s\n' "Unexpected release draft state: $draft" >&2
+              exit 1
+            fi
+          else
+            # A transient view failure cannot overwrite an existing tag: creation fails.
+            gh release create "$tag" "${assets[@]}" \
+              --target "$GITHUB_SHA" --title "Latest profiles" --draft
+            gh release edit "$tag" --draft=false --latest
+          fi
