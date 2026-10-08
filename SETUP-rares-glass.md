@@ -8,7 +8,7 @@ One profile, five plugins (one adds the layout), and an official Liquid Glass th
 |---|---|---|
 | **Rares Glass** profile | `dobrerares/clink-typing-profiles` | Default key height and spacing. Compact number row, sound OFF, gentle haptics, floating popups, short glassy motion, spacebar cursor. Auto-punctuation ON. |
 | **Liquid Violet** theme | Official Clink theme catalogue | Liquid Glass keys (translucent `liquidGlass` material) with a calm violet accent. Installed from the official catalogue, not republished. |
-| **Bilingual Guard** plugin | `dobrerares/clink-typing-plugins` | Lets autocorrect work, but protects links, emails, numbers, acronyms, Romanian hyphen forms (s-a, mi-am, într-un) and the diacritics you typed. A Strict switch is there if you ever want no corrections at all. |
+| **Bilingual Guard** plugin | `dobrerares/clink-typing-plugins` | Lets autocorrect work and **restores Romanian diacritics** (rau → rău, maine → mâine, si → și), but protects links, emails, numbers, acronyms, Romanian hyphen forms (s-a, mi-am, într-un) and the diacritics you typed. A Strict switch is there if you ever want no corrections at all. |
 | **Quiet Feedback** plugin | same | Per-key haptics: crisp letters, rounder space, solid return, sharp delete. Strength slider 0.5–1.4. |
 | **Period Guard** plugin | same | Shrinks the period key's tap area after a one-time calibration, without changing how it looks. |
 | **Explicit Proofread** plugin | same | A top-bar button that sends only the text you selected to Apple Intelligence. |
@@ -33,6 +33,7 @@ The four typing plugins install switched off; you turn on each one yourself. The
 
 - No sound on any key. Haptics feel different on space, return and delete.
 - Type: `Am făcut push pe branch, but tests încă fail.` and `Sorry, sunt late; ajung în 10 minutes.` Real words in either language must stay as typed. A typo like `meetign` should get fixed.
+- Type `rau`, `maine`, `si`, `dupa` + space: they become rău, mâine, și, după. For râu (river), pick it from the suggestion bar or long-press a.
 - Also try: `s-a`, `mi-am`, `într-un`, `https://example.com`, `a@b.ro`, `3.14`.
 - Compare accidental periods before and after calibrating Period Guard. A period you tap on purpose must still work.
 - Proofread with nothing selected should do nothing.
